@@ -2,6 +2,16 @@
 
 En aquesta activitat analitzarem les vulnerabitilitats d'un sistema informàtic mitjançant una eina d'escaneig de vulnerabilitats. L'objectiu és identificar possibles punts febles en la seguretat del sistema i proposar mesures per a mitigar-los.
 
+![Hacking](https://img.shields.io/badge/hacking-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![OpenVAS](https://img.shields.io/badge/OpenVAS-3DDC84?style=for-the-badge&logo=greenhouse&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF5733?style=for-the-badge&logo=fortinet&logoColor=white)
+
+## Resultats d'aprenentatge i criteris d'avaluació
+
+RA3. Aplica mecanismes de seguretat activa descrivint-ne les característiques i relacionant-les amb les necessitats d'ús del sistema informàtic.
+
+CA3.3 Realitza actualitzacions periòdiques dels sistemes per a corregir possibles vulnerabilitats.
+
 ## Entorn de treball
 
 Usarem una màquina virtual OpenVAS com eina d'anàlisi. Aquesta màquina la teniu disponible en forma .ova a la unitat de xarxa. [OpenVAS](https://www.openvas.org) és un producte de codi obert que permet realitzar escanejats de vulnerabilitats en sistemes informàtics. Malgrat això, hi ha diversos nivells de llicència, en funció de les funcionalitats que es vulguin utilitzar.
@@ -32,5 +42,42 @@ Com a màquina objectiu, usarem una màquina virtual Linux amb diverses vulnerab
     - Definir l'usuari que usarem per entrar via web, per comoditat triarem un usuari `admin` amb contrasenya `admin`.
     - Configurar la xarxa de les dues interfícies, aquí cal seleccionar en cadascuna d'elles l'opció dhcp de IPv4. Finalment, anoteu les dues adreces.
 
-En aquest vídeo teniu un exemple de com fer aquesta configuració inicial:
+En aquest vídeo teniu un exemple de com fer aquesta configuració inicial (està fet amb una versió anterior d'OpenVAS, però els passos són similars):  
 
+[Configuració inicial OpenVAS](https://youtu.be/pCqxJ7SZIl4?si=N-1oBk8c3KbB_8M8)
+
+## Procediment pràctic
+
+### Anàlisi de vulnerabilitats
+
+1. Mostra l’accés a OpenVAS via web amb les credencials creades anteriorment. Veuràs que et surt un avís relatiu a la seguretat del certificat, ja que és un certificat autofirmat. Pots ignorar aquest avís.
+2. Afegeix la IP de la màquina vulnerable com a Host.
+3. Configura un Target amb el Host del punt anterior, inclou les credencials de la màquina vulnerable per accedir via SSH i SMB.
+4. Realitza una exploració de vulnerabilitats. Aquest procés pot ser lent, si veieu que us queda poc temps, cancel·leu l’anàlisi i treballeu amb els resultats obtinguts.
+
+Al següent vídeo pots veure un exemple de tot el procés d'anàlisi de vulnerabilitats amb OpenVAS:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pCqxJ7SZIl4?si=S34o1KQw2EjudzLl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+https://youtu.be/QYU0i1MkxHM?si=sEUGtLOePdt1lWiM
+
+### Recollida de resultats
+
+Un cop acabem l’exploració OpenVAS ens mostra els resultats corresponents a la màquina, podem veure la descripció de la vulnerabilitat i resta de informació significativa. Al darrer vídeo pots veure com es mostren els resultats, tant de vulnerabilitats totals, per serveis, etc.
+
+Al vídeo pots veure un exemple de com visualitzar els resultats obtinguts:
+[OpenVAS Results](https://youtu.be/fayvjKo1yZA?si=4XS6USXGxFYzOjT2)
+
+## Documentació de l'activitat
+
+Documenta bé en un arxiu de Google Docs (assegura't de compartir-lo amb el teu professor) o directament en format Markdown, a la carpeta corresponent del repositori GitHub del projecte, els següents punts:
+
+- Documentació del procés d'anàlisi de vulnerabilitats seguit:
+  - Configuració de la màquina vulnerable.
+  - Configuració de la màquina OpenVAS.
+  - Passos seguits per realitzar l'anàlisi.
+- Analitza quatre vulnerabilitats trobades:
+  - Descripció de la vulnerabilitat incloent el seu CVE.
+  - Nivell de gravetat.
+  - Possible explotació.
+  - Mesures de mitigació proposades.
