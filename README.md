@@ -44,7 +44,7 @@ Com a màquina objectiu, usarem una màquina virtual Linux amb diverses vulnerab
 
 En aquest vídeo teniu un exemple de com fer aquesta configuració inicial (està fet amb una versió anterior d'OpenVAS, però els passos són similars):  
 
-[Configuració inicial OpenVAS](https://youtu.be/pCqxJ7SZIl4?si=N-1oBk8c3KbB_8M8)
+[![Mira el video aquí](https://img.youtube.com/vi/pCqxJ7SZIl4/0.jpg)](https://www.youtube.com/watch?v=pCqxJ7SZIl4)
 
 ## Procediment pràctic
 
@@ -57,16 +57,15 @@ En aquest vídeo teniu un exemple de com fer aquesta configuració inicial (est�
 
 Al següent vídeo pots veure un exemple de tot el procés d'anàlisi de vulnerabilitats amb OpenVAS:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pCqxJ7SZIl4?si=S34o1KQw2EjudzLl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-https://youtu.be/QYU0i1MkxHM?si=sEUGtLOePdt1lWiM
+[![Ver video en YouTube](https://img.youtube.com/vi/QYU0i1MkxHM/0.jpg)](https://www.youtube.com/watch?v=QYU0i1MkxHM)
 
 ### Recollida de resultats
 
 Un cop acabem l’exploració OpenVAS ens mostra els resultats corresponents a la màquina, podem veure la descripció de la vulnerabilitat i resta de informació significativa. Al darrer vídeo pots veure com es mostren els resultats, tant de vulnerabilitats totals, per serveis, etc.
 
 Al vídeo pots veure un exemple de com visualitzar els resultats obtinguts:
-[OpenVAS Results](https://youtu.be/fayvjKo1yZA?si=4XS6USXGxFYzOjT2)
+
+[![Ver Video](https://img.youtube.com/vi/fayvjKo1yZA/maxresdefault.jpg)](https://www.youtube.com/watch?v=fayvjKo1yZA)
 
 ## Documentació de l'activitat
 
