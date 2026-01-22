@@ -44,7 +44,7 @@ Com a màquina objectiu, usarem una màquina virtual Linux amb diverses vulnerab
 
 En aquest vídeo teniu un exemple de com fer aquesta configuració inicial (està fet amb una versió anterior d'OpenVAS, però els passos són similars):  
 
-<video src="media/OpenVAS-configurar.mp4" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/0aabef5e-ff0a-42a4-bc31-b188e101f2bc
 
 ## Procediment pràctic
 
@@ -57,7 +57,7 @@ En aquest vídeo teniu un exemple de com fer aquesta configuració inicial (est�
 
 Al següent vídeo pots veure un exemple de tot el procés d'anàlisi de vulnerabilitats amb OpenVAS:
 
-<video src="media/OpenVAS-scan.mp4" controls="controls" width="100%"></video>
+https://github.com/user-attachments/assets/da82a5b1-5ccb-450c-a81a-e37827040620
 
 ### Recollida de resultats
 
@@ -65,7 +65,7 @@ Un cop acabem l’exploració OpenVAS ens mostra els resultats corresponents a l
 
 Al vídeo pots veure un exemple de com visualitzar els resultats obtinguts:
 
-<video src="media/OpenVAS-resultats.mp4" controls="controls" width="100%" ></video>
+https://github.com/user-attachments/assets/c5e79f0a-9fa8-42f4-aceb-6a6739c9d975
 
 ## Documentació de l'activitat
 
